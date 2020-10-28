@@ -21,20 +21,20 @@ _This activity is more about the discussion in how to best organize data endpoin
 | endpoint         | method   | Description                                 |
 | ---------------- | -------- | ------------------------------------------- |
 | `/customers`     | `GET`    | access all customers                        |
-| `/customer/:id`  | `GET`    | access a customer based on her/his id       |
-| `/customer/`     | `POST`   | create a new customer                       |
-| `/customer/:id`  | `PATCH`  | update info on existing customer            |
-| `/customer/:id`  | `DELETE` | deletes a customer                          |
+| `/customers/:id` | `GET`    | access a customer based on her/his id       |
+| `/customers/`    | `POST`   | create a new customer                       |
+| `/customers/:id` | `PATCH`  | update info on existing customer            |
+| `/customers/:id` | `DELETE` | deletes a customer                          |
 | `/suppliers`     | `GET`    | get all suppliers                           |
-| `/supplier/:id`  | `GET`    | access a supplier based on her/his id       |
-| `/supplier/`     | `POST`   | create a new supplier                       |
-| `/supplier/:id`  | `PATCH`  | update info on existing supplier            |
-| `/supplier/:id`  | `DELETE` | deletes a supplier                          |
+| `/suppliers/:id` | `GET`    | access a supplier based on her/his id       |
+| `/suppliers/`    | `POST`   | create a new supplier                       |
+| `/suppliers/:id` | `PATCH`  | update info on existing supplier            |
+| `/suppliers/:id` | `DELETE` | deletes a supplier                          |
 | `/products`      | `GET`    | Get all products available in coffee        |
-| `/product/:id`   | `GET`    | respond with a product type based on its id |
-| `/product/`      | `POST`   | create a new product type                   |
-| `/product/:id`   | `PATCH`  | update info on existing product type        |
-| `/product/:id`   | `DELETE` | deletes a product type                      |
+| `/products/:id`  | `GET`    | respond with a product type based on its id |
+| `/products/`     | `POST`   | create a new product type                   |
+| `/products/:id`  | `PATCH`  | update info on existing product type        |
+| `/products/:id`  | `DELETE` | deletes a product type                      |
 | `/furniture`     | `GET`    | access all furniture                        |
 | `/furniture/:id` | `GET`    | access a piece of furniture based on its id |
 | `/furniture/`    | `POST`   | create a new piec of furniture              |

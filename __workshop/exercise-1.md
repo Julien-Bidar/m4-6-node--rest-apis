@@ -17,3 +17,26 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+| endpoint         | method   | Description                                 |
+| ---------------- | -------- | ------------------------------------------- |
+| `/customers`     | `GET`    | access all customers                        |
+| `/customer/:id`  | `GET`    | access a customer based on her/his id       |
+| `/customer/`     | `POST`   | create a new customer                       |
+| `/customer/:id`  | `PATCH`  | update info on existing customer            |
+| `/customer/:id`  | `DELETE` | deletes a customer                          |
+| `/suppliers`     | `GET`    | get all suppliers                           |
+| `/supplier/:id`  | `GET`    | access a supplier based on her/his id       |
+| `/supplier/`     | `POST`   | create a new supplier                       |
+| `/supplier/:id`  | `PATCH`  | update info on existing supplier            |
+| `/supplier/:id`  | `DELETE` | deletes a supplier                          |
+| `/products`      | `GET`    | Get all products available in coffee        |
+| `/product/:id`   | `GET`    | respond with a product type based on its id |
+| `/product/`      | `POST`   | create a new product type                   |
+| `/product/:id`   | `PATCH`  | update info on existing product type        |
+| `/product/:id`   | `DELETE` | deletes a product type                      |
+| `/furniture`     | `GET`    | access all furniture                        |
+| `/furniture/:id` | `GET`    | access a piece of furniture based on its id |
+| `/furniture/`    | `POST`   | create a new piec of furniture              |
+| `/furniture/:id` | `PATCH`  | update info on existing piece of furniture  |
+| `/furniture/:id` | `DELETE` | deletes a piece of furniture                |
